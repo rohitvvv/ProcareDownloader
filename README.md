@@ -6,8 +6,11 @@ If you are someone looking to bulk download pictures of your kid at preschool yo
 # Dependencies
 
 Install these deps to run the script
+
+```
  pip install requests
  pip install bs4
+ ```
 
 # HowTo
 
