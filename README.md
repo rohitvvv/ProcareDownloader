@@ -5,7 +5,8 @@ If you are someone looking to bulk download pictures of your kid at preschool yo
 
 # Dependencies
 
-Install these deps to run the script
+You need Python 3 installed on your machine to use the script. 
+Install these deps to run the script.
 
 ```
  pip install requests
@@ -14,13 +15,15 @@ Install these deps to run the script
 
 # HowTo
 
-On Procare dashboard navivate to photos and videos. Switch to weekly view. Scroll to load all the images. 
-Now copy the html. 
+On Procare dashboard navigate to photos and videos. Switch to weekly view. Scroll down to load all the images. 
+Now copy the html. Follow the steps below to copy the HTML. 
 
-1. Right click on the page with images. Inspect element. 
+1. Right click on the page with images. Select Inspect. 
 2. In developer tools right click on main HTML tag and edit as HTML.
 3. Select all and save to text to disk. Note the path of the file.
 4. Invoke the script from the directory you are downloading pictures too.
+
+*Skip to demo if you don't follow.*
 
 Pass the saved html as an argument to the script with the path. 
 
@@ -29,3 +32,6 @@ Example:
 ```
 C:/Users/Rohit_Vaidya/AppData/Local/Microsoft/WindowsApps/python3.12.exe c:/Users/Rohit_Vaidya/Downloads/projects/ProcareDownloader/downloader.py c://Users//Rohit_Vaidya//Downloads//Procare//photos.html
 ```
+# Demo
+
+![Demo](https://github.com/rohitvvvv/ProcareDownloader/Demo.gif)
