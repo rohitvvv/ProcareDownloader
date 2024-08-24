@@ -3,7 +3,11 @@
 Procare downloader is a semi-automatic way to download images in bulk from Procare. 
 If you are someone looking to bulk download pictures of your kid at preschool you can use this tool. 
 
-# Dependencies
+# Windows Executable
+Windows users can directly use the binary. Skip to HowTo
+[Download](https://github.com/rohitvvv/ProcareDownloader/releases/tag/WindowsBinary) Windows binary 
+
+# Dependencies (Use this if you are on Mac or Linux)
 
 You need Python 3 installed on your machine to use the script. 
 Install these deps to run the script.
